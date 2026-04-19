@@ -210,7 +210,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-card-bg py-8 px-4 text-center">
         <p className="text-muted">
-          © 2025 Slime Monsters. Get ready for the slimiest, most fun market experience ever! 🎉
+          © {new Date().getFullYear()} Slime Monsters. Get ready for the slimiest, most fun market experience ever! 🎉
         </p>
       </footer>
     </div>
